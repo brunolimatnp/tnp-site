@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tecnologia na Prática — Bruno Lima</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --azul: #00d4ff;
+    --azul-escuro: #0066cc;
+    --preto: #080c10;
+    --cinza: #1a1f2e;
+    --texto: #c8d0e0;
+    --branco: #f0f4ff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--preto); color: var(--texto); font-family: 'DM Sans', sans-serif; overflow-x: hidden; }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 40px 24px;
+    text-align: center;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, #00d4ff18 0%, transparent 70%),
+                radial-gradient(ellipse 60% 40% at 80% 80%, #0066cc12 0%, transparent 60%);
+  }
+  .grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(#00d4ff08 1px, transparent 1px), linear-gradient(90deg, #00d4ff08 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 800px; }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #00d4ff15;
+    border: 1px solid #00d4ff30;
+    border-radius: 100px;
+    padding: 6px 16px;
+    font-size: 13px;
+    color: var(--azul);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    animation: fadeUp 0.6s ease both;
+  }
+  .badge::before { content: '●'; font-size: 8px; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  @keyframes fadeUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(42px, 8vw, 88px);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--branco);
+    margin-bottom: 8px;
+    animation: fadeUp 0.6s 0.1s ease both;
+  }
+  h1 span { color: var(--azul); }
+  .subtitle {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(18px, 3vw, 28px);
+    font-weight: 600;
+    color: #6080a0;
+    margin-bottom: 24px;
+    animation: fadeUp 0.6s 0.2s ease both;
+  }
+  .desc {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--texto);
+    max-width: 560px;
+    margin: 0 auto 40px;
+    animation: fadeUp 0.6s 0.3s ease both;
+  }
+  .redes {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeUp 0.6s 0.4s ease both;
+  }
+  .rede-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+  }
+  .rede-btn:hover { transform: translateY(-2px); }
+  .rede-yt { background: #ff000015; border-color: #ff000030; color: #ff4444; }
+  .rede-yt:hover { background: #ff000025; }
+  .rede-ig { background: #e1306c15; border-color: #e1306c30; color: #e1306c; }
+  .rede-ig:hover { background: #e1306c25; }
+  .rede-tk { background: #ffffff10; border-color: #ffffff20; color: #fff; }
+  .rede-tk:hover { background: #ffffff18; }
+  .rede-li { background: #0077b615; border-color: #0077b630; color: #0099ff; }
+  .rede-li:hover { background: #0077b625; }
+
+  /* SOBRE */
+  .sobre {
+    padding: 100px 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .section-tag {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--azul);
+    margin-bottom: 16px;
+  }
+  .sobre h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 700;
+    color: var(--branco);
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+  .sobre p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: var(--texto);
+    margin-bottom: 16px;
+    max-width: 680px;
+  }
+
+  /* CARDS */
+  .cards {
+    padding: 0 24px 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--cinza);
+    border: 1px solid #ffffff0a;
+    border-radius: 16px;
+    padding: 28px;
+    transition: all 0.3s;
+  }
+  .card:hover { border-color: #00d4ff20; transform: translateY(-4px); }
+  .card-icon { font-size: 32px; margin-bottom: 16px; }
+  .card h3 { font-family: 'Syne', sans-serif; font-size: 18px; color: var(--branco); margin-bottom: 10px; }
+  .card p { font-size: 14px; line-height: 1.6; color: #8090a8; }
+
+  /* FOOTER */
+  footer {
+    border-top: 1px solid #ffffff08;
+    padding: 40px 24px;
+    text-align: center;
+    color: #4a5568;
+    font-size: 13px;
+  }
+  footer a { color: var(--azul); text-decoration: none; margin: 0 12px; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="grid-bg"></div>
+  <div class="hero-content">
+    <div class="badge">Canal de tecnologia</div>
+    <h1>Tecnologia<br><span>na Prática</span></h1>
+    <div class="subtitle">por Bruno Lima</div>
+    <p class="desc">IA, automação e tecnologia explicados de forma simples e prática para transformar seu negócio e sua vida.</p>
+    <div class="redes">
+      <a href="https://youtube.com/@BrunoLima-TecnologiaNaPrática" target="_blank" class="rede-btn rede-yt">▶ YouTube</a>
+      <a href="https://instagram.com/BrunoLima_TecnologiaNaPratica" target="_blank" class="rede-btn rede-ig">◎ Instagram</a>
+      <a href="https://tiktok.com/@brunolima_TecNaPratica" target="_blank" class="rede-btn rede-tk">♪ TikTok</a>
+      <a href="https://linkedin.com/in/brunordosslima" target="_blank" class="rede-btn rede-li">in LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section class="sobre">
+  <div class="section-tag">Sobre o canal</div>
+  <h2>Tecnologia que você consegue usar de verdade</h2>
+  <p>O canal Tecnologia na Prática foi criado por Bruno Lima — CTO, gestor de TI e apaixonado por tecnologia — com o objetivo de democratizar o acesso ao conhecimento sobre inteligência artificial, automação e ferramentas digitais.</p>
+  <p>Aqui você encontra conteúdo semanal com análises, tutoriais e tendências do mundo tech, sempre com um olhar voltado para a realidade brasileira e para o uso prático no dia a dia.</p>
+</section>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-icon">🤖</div>
+    <h3>Inteligência Artificial</h3>
+    <p>Como usar IA no seu trabalho, negócio e vida pessoal de forma prática e acessível.</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">⚡</div>
+    <h3>Automação</h3>
+    <p>Ferramentas e fluxos que economizam tempo e aumentam sua produtividade.</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">🛠️</div>
+    <h3>Ferramentas Digitais</h3>
+    <p>Reviews honestos das melhores ferramentas de tecnologia do mercado.</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Bruno Lima — Tecnologia na Prática. Todos os direitos reservados.</p>
+  <p style="margin-top:12px">
+    <a href="/termos.html">Termos de Serviço</a>
+    <a href="/privacidade.html">Política de Privacidade</a>
+  </p>
+</footer>
+
+</body>
+</html>
