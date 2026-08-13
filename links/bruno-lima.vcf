@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lima;Bruno;;;
+FN:Bruno Lima
+ORG:Tecnologia na Prática
+TITLE:CTO · Fundador do Tecnologia na Prática
+TEL;TYPE=CELL,VOICE:+5511973943652
+EMAIL;TYPE=INTERNET,WORK:brunordosslima@gmail.com
+URL:https://tecnologianapratica.com.br
+URL;TYPE=WORK:https://www.linkedin.com/in/brunordosslima
+NOTE:IA e automação sem hype. Simples assim.
+END:VCARD
