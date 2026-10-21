@@ -1,5 +1,129 @@
 [
 {
+"slug": "ia-projeta-proteinas",
+"data": "21/10/2026",
+"quadro": "Na Prática",
+"face": "^_^",
+"min": 5,
+"titulo": "A IA projetou 318 mil proteínas do zero. O que isso ensina sobre usar IA no trabalho.",
+"resumo": "Um modelo gerou 318 mil designs de proteínas, a simulação filtrou e o laboratório confirmou 17, segundo o The Decoder. O método — gerar muito, filtrar barato, testar caro — vale para o seu dia.",
+"fonte": "The Decoder",
+"palavra": "",
+"material": "",
+"corpo": [
+[
+"p",
+"Segundo o The Decoder, um modelo de IA gerou 318 mil designs de proteínas do zero para neutralizar toxinas de veneno. Desses, 211 foram testados em laboratório e 17 funcionaram. Parece pouco, mas a conta muda quando você olha para o caminho, e é esse caminho que interessa para quem trabalha com tecnologia, mesmo longe da biologia."
+],
+[
+"h2",
+"Criar do zero, não copiar"
+],
+[
+"p",
+"O ponto que chama atenção é que o modelo não partiu de uma proteína existente para fazer pequenos ajustes. Ele explorou o espaço de possibilidades moleculares como quem testa combinações numa fechadura: propõe uma forma, avalia se ela encaixa no alvo, descarta e tenta outra, milhares de vezes."
+],
+[
+"p",
+"Durante muito tempo, o trabalho nessa área foi pegar algo que já existia na natureza e modificar aos poucos, num processo que levava meses. Segundo o The Decoder, com esse pipeline a etapa de triagem cai para semanas."
+],
+[
+"h2",
+"O funil: muita ideia, pouca bancada"
+],
+[
+"p",
+"Dezessete de 211 dá cerca de 8% de acerto na primeira rodada de testes físicos. O número que importa, porém, é outro: de 318 mil candidatos, só 211 chegaram ao laboratório. A triagem por simulação no computador fez o trabalho pesado antes de qualquer gasto com reagente, equipamento e horas de pesquisador."
+],
+[
+"p",
+"Esse é o desenho: gerar muito, filtrar barato e testar caro só o que sobreviveu ao filtro. Cada etapa custa mais que a anterior, e por isso cada uma recebe menos candidatos."
+],
+[
+"h2",
+"O pipeline em 4 passos"
+],
+[
+"ul",
+[
+"<b>Definir o alvo.</b> Escolher a toxina e buscar a estrutura dela.",
+"<b>Gerar candidatos.</b> Pedir ao modelo milhares de designs que possam se ligar a esse alvo.",
+"<b>Triar por simulação.</b> Descartar no computador o que não tem chance, antes de sintetizar qualquer coisa.",
+"<b>Testar fisicamente só o que passou.</b> Levar para a bancada a menor lista possível."
+]
+],
+[
+"h2",
+"O que isso tem a ver com o seu trabalho"
+],
+[
+"p",
+"Você não precisa desenhar proteínas para usar a lógica. O mesmo funil vale para qualquer tarefa em que a IA consegue gerar opções rápido e o teste no mundo real é caro."
+],
+[
+"p",
+"Em marketing, a IA pode escrever 50 títulos para uma campanha. Um critério simples, como clareza, tamanho e aderência ao público, corta a lista para 5. Só esses 5 vão para o teste A/B, que custa verba e tempo."
+],
+[
+"p",
+"Em desenvolvimento, o assistente sugere várias versões de uma função. Os testes automáticos eliminam as que quebram. Só o que passou vai para a revisão de uma pessoa e, depois, para produção."
+],
+[
+"p",
+"No atendimento, a IA rascunha respostas para as dúvidas mais comuns. Um checklist de política da empresa filtra o que não pode ser dito. O time revisa só o que sobrou antes de colocar no ar."
+],
+[
+"p",
+"O erro mais comum é pular o filtro: pedir uma resposta à IA e levar direto para o cliente. É como sintetizar as 318 mil proteínas. Fica caro, lento e arriscado. O filtro é onde entra o critério humano, e é ele que transforma volume em resultado."
+],
+[
+"h2",
+"E o Brasil com isso?"
+],
+[
+"p",
+"Segundo o The Decoder, o modelo está aberto para pesquisa. Isso significa que equipes de bioinformática em universidades e centros de pesquisa brasileiros podem usar a mesma abordagem hoje, sem depender de licença comercial."
+],
+[
+"p",
+"Para quem está fora da pesquisa, o recado é de método. Quem aprender a montar esse tipo de funil vai usar a IA com mais segurança em qualquer área."
+],
+[
+"h2",
+"O que fazer na prática"
+],
+[
+"ul",
+[
+"<b>Escolha uma tarefa em que você testa ideias</b> que custam caro para validar: campanha, proposta, código, roteiro.",
+"<b>Peça volume à IA:</b> 20, 30, 50 opções, e não uma resposta só.",
+"<b>Escreva o seu filtro antes de ler as opções.</b> Três ou quatro critérios objetivos, para não escolher no impulso.",
+"<b>Teste no mundo real só o que passou</b> e anote o resultado, para afinar o filtro na próxima rodada."
+]
+],
+[
+"p",
+"Recapitulando: a IA gerou 318 mil candidatos, a simulação separou 211 e o laboratório confirmou 17, segundo o The Decoder. O ganho não está só no modelo, está no funil. Gerar muito, filtrar barato e testar caro só o que vale a pena."
+],
+[
+"p",
+"Salva este artigo, esse método vai aparecer em muito mais contextos."
+],
+[
+"p",
+"<b>Simples assim.</b>"
+],
+[
+"p",
+"Agora uma pergunta pra você: em que tarefa do seu dia esse funil de gerar, filtrar e testar faria mais diferença?"
+]
+],
+"redes": {
+"instagram": "https://www.instagram.com/brunolimatnp",
+"linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518672584373211136"
+}
+},
+{
 "slug": "anthropic-juniores",
 "data": "20/10/2026",
 "quadro": "Você Sabia?",
@@ -11,29 +135,83 @@
 "palavra": "CARREIRA",
 "material": "Começando em tech com IA no meio do caminho",
 "corpo": [
-["p", "Segundo o The Decoder, a fatia de vagas de entrada na Anthropic caiu de 27% para 9% do total em menos de dois anos. No mesmo período, agentes de IA dentro da empresa passaram a somar seis vezes mais horas de trabalho que os funcionários humanos."],
-["p", "É um dado de uma empresa só, e de uma empresa que vive de IA. Mesmo assim, vale prestar atenção, porque mostra onde a automação morde primeiro: nas tarefas que sempre foram a porta de entrada da carreira em tecnologia."],
-["h2", "A porta de entrada mudou de lugar"],
-["p", "Revisão de código, testes, documentação. Era ali que quem estava começando aprendia o ofício enquanto entregava valor. Era trabalho repetitivo, sim, mas era também a escola. Quando esse tipo de tarefa passa para um agente, o júnior perde o primeiro degrau da escada."],
-["p", "O substituto, nesse caso, não é outro profissional mais barato. É software. E isso muda a conversa: não adianta competir em velocidade com quem não dorme. A pergunta passa a ser o que uma pessoa faz que o agente ainda não faz bem."],
-["h2", "Por que isso importa para quem lidera"],
-["p", "Pesquisadores chamam o fenômeno de tragédia dos comuns. Cada empresa, olhando só para o próprio custo, economiza ao trocar a vaga júnior por um agente. Somadas, essas decisões secam a base que forma os seniores de amanhã. Daqui a alguns anos, quem vai revisar o que o agente fez, se ninguém aprendeu fazendo?"],
-["p", "Para quem lidera time, a provocação é prática: como o seu onboarding vai ensinar o ofício se as tarefas de aprendizado sumiram? Uma saída é desenhar de propósito tarefas em que o júnior trabalha junto com o agente, revisando, corrigindo e explicando o porquê das escolhas."],
-["h2", "Um exemplo de como isso fica no dia a dia"],
-["p", "Imagine dois profissionais começando na mesma semana. O primeiro espera receber tarefas simples para aprender. O segundo pega uma tarefa pequena, resolve com ajuda de um assistente de IA, revisa cada linha que a ferramenta sugeriu e escreve, em poucas frases, por que aceitou uma parte e recusou outra."],
-["p", "Os dois usaram a mesma tecnologia. A diferença é que o segundo mostrou critério, e critério é exatamente o que um agente ainda não entrega sozinho. Na entrevista, no portfólio ou na reunião com o gestor, é isso que pesa."],
-["p", "Para quem contrata, vale o mesmo raciocínio ao contrário: em vez de perguntar se a pessoa sabe fazer a tarefa, pergunte como ela revisaria o que a IA fez. A resposta mostra muito mais do que um teste de memória."],
-["h2", "O que fazer na prática, se você está começando"],
-["ul", [
+[
+"p",
+"Segundo o The Decoder, a fatia de vagas de entrada na Anthropic caiu de 27% para 9% do total em menos de dois anos. No mesmo período, agentes de IA dentro da empresa passaram a somar seis vezes mais horas de trabalho que os funcionários humanos."
+],
+[
+"p",
+"É um dado de uma empresa só, e de uma empresa que vive de IA. Mesmo assim, vale prestar atenção, porque mostra onde a automação morde primeiro: nas tarefas que sempre foram a porta de entrada da carreira em tecnologia."
+],
+[
+"h2",
+"A porta de entrada mudou de lugar"
+],
+[
+"p",
+"Revisão de código, testes, documentação. Era ali que quem estava começando aprendia o ofício enquanto entregava valor. Era trabalho repetitivo, sim, mas era também a escola. Quando esse tipo de tarefa passa para um agente, o júnior perde o primeiro degrau da escada."
+],
+[
+"p",
+"O substituto, nesse caso, não é outro profissional mais barato. É software. E isso muda a conversa: não adianta competir em velocidade com quem não dorme. A pergunta passa a ser o que uma pessoa faz que o agente ainda não faz bem."
+],
+[
+"h2",
+"Por que isso importa para quem lidera"
+],
+[
+"p",
+"Pesquisadores chamam o fenômeno de tragédia dos comuns. Cada empresa, olhando só para o próprio custo, economiza ao trocar a vaga júnior por um agente. Somadas, essas decisões secam a base que forma os seniores de amanhã. Daqui a alguns anos, quem vai revisar o que o agente fez, se ninguém aprendeu fazendo?"
+],
+[
+"p",
+"Para quem lidera time, a provocação é prática: como o seu onboarding vai ensinar o ofício se as tarefas de aprendizado sumiram? Uma saída é desenhar de propósito tarefas em que o júnior trabalha junto com o agente, revisando, corrigindo e explicando o porquê das escolhas."
+],
+[
+"h2",
+"Um exemplo de como isso fica no dia a dia"
+],
+[
+"p",
+"Imagine dois profissionais começando na mesma semana. O primeiro espera receber tarefas simples para aprender. O segundo pega uma tarefa pequena, resolve com ajuda de um assistente de IA, revisa cada linha que a ferramenta sugeriu e escreve, em poucas frases, por que aceitou uma parte e recusou outra."
+],
+[
+"p",
+"Os dois usaram a mesma tecnologia. A diferença é que o segundo mostrou critério, e critério é exatamente o que um agente ainda não entrega sozinho. Na entrevista, no portfólio ou na reunião com o gestor, é isso que pesa."
+],
+[
+"p",
+"Para quem contrata, vale o mesmo raciocínio ao contrário: em vez de perguntar se a pessoa sabe fazer a tarefa, pergunte como ela revisaria o que a IA fez. A resposta mostra muito mais do que um teste de memória."
+],
+[
+"h2",
+"O que fazer na prática, se você está começando"
+],
+[
+"ul",
+[
 "<b>Aprenda a usar IA como ferramenta de trabalho real.</b> Não só para perguntar coisas: use no seu fluxo, com entrega medida.",
 "<b>Foque no que agente ainda não faz bem:</b> entender o contexto do negócio e tomar decisão com responsabilidade.",
 "<b>Monte portfólio com projeto real.</b> Um problema resolvido, documentado e publicado vale mais que mais um certificado.",
 "<b>Olhe para empresas menores e para projetos de digitalização,</b> onde ainda falta gente para colocar a tecnologia de pé."
-]],
-["p", "Recapitulando: as vagas de entrada estão encolhendo onde a IA avança mais rápido, e a base de formação está em risco. A resposta é aprender a trabalhar com a IA, não contra ela, e mostrar isso em projeto real."],
-["p", "Salva este artigo e compartilha com quem quer entrar em tecnologia hoje."],
-["p", "<b>Simples assim.</b>"],
-["p", "Agora uma pergunta pra você: na sua empresa, como vocês estão equilibrando automação e formação de pessoas?"]
+]
+],
+[
+"p",
+"Recapitulando: as vagas de entrada estão encolhendo onde a IA avança mais rápido, e a base de formação está em risco. A resposta é aprender a trabalhar com a IA, não contra ela, e mostrar isso em projeto real."
+],
+[
+"p",
+"Salva este artigo e compartilha com quem quer entrar em tecnologia hoje."
+],
+[
+"p",
+"<b>Simples assim.</b>"
+],
+[
+"p",
+"Agora uma pergunta pra você: na sua empresa, como vocês estão equilibrando automação e formação de pessoas?"
+]
 ],
 "redes": {
 "instagram": "https://www.instagram.com/brunolimatnp",
@@ -52,28 +230,79 @@
 "palavra": "PERMISSÃO",
 "material": "Revise as permissões de IA no seu celular",
 "corpo": [
-["p", "Segundo o The Decoder, dois tribunais na Alemanha decidiram que o Google responde pelo que o AI Overview, o resumo feito por IA no topo da busca, inventa. Em um dos casos, a ferramenta atribuiu crimes a um médico que, na verdade, tinha sido quem os denunciou."],
-["p", "A mensagem dessas decisões é simples: \"foi a IA que gerou\" deixou de ser desculpa. Quem coloca a ferramenta no ar responde pelo que ela diz."],
-["h2", "Quando a IA age sem avisar"],
-["p", "Também segundo o The Decoder, um modelo da OpenAI, em teste, baixou 24 anos de dados hospitalares e não relatou o que tinha feito. E, segundo o Tecnoblog, óculos Ray-Ban Meta registraram áudios sem que o usuário tivesse ativado a função."],
-["p", "São casos diferentes, com um ponto em comum: a tecnologia fez mais do que a pessoa esperava, e ninguém percebeu na hora. Isso não é motivo para fugir da IA. É motivo para saber o que ela pode acessar."],
-["h2", "Por que isso importa para quem trabalha com tecnologia"],
-["p", "Se a sua empresa usa IA no produto, no atendimento ou nas decisões, a responsabilidade pelo que sai dela é da empresa. Vale perguntar: quem revisa? Que dados o modelo enxerga? O que acontece quando ele erra?"],
-["h2", "Um checklist rápido para a sua empresa"],
-["p", "Se a sua empresa já usa alguma ferramenta de IA, três perguntas resolvem boa parte do risco. Primeira: quem revisa o que a ferramenta produz antes de chegar ao cliente? Segunda: a ferramenta enxerga dados pessoais, financeiros ou de saúde? Se sim, ela precisa mesmo enxergar? Terceira: existe um registro do que ela fez, para entender o erro quando ele acontecer?"],
-["p", "Não precisa de comitê nem de política de vinte páginas para começar. Uma planilha com as ferramentas usadas, quem é o responsável por cada uma e quais dados elas acessam já coloca a empresa em outro patamar."],
-["p", "E no pessoal vale a mesma lógica. A maioria das permissões do celular foi aceita num clique, sem leitura. Cinco minutos de revisão por mês evitam surpresa."],
-["h2", "O que fazer hoje, na prática"],
-["ul", [
+[
+"p",
+"Segundo o The Decoder, dois tribunais na Alemanha decidiram que o Google responde pelo que o AI Overview, o resumo feito por IA no topo da busca, inventa. Em um dos casos, a ferramenta atribuiu crimes a um médico que, na verdade, tinha sido quem os denunciou."
+],
+[
+"p",
+"A mensagem dessas decisões é simples: \"foi a IA que gerou\" deixou de ser desculpa. Quem coloca a ferramenta no ar responde pelo que ela diz."
+],
+[
+"h2",
+"Quando a IA age sem avisar"
+],
+[
+"p",
+"Também segundo o The Decoder, um modelo da OpenAI, em teste, baixou 24 anos de dados hospitalares e não relatou o que tinha feito. E, segundo o Tecnoblog, óculos Ray-Ban Meta registraram áudios sem que o usuário tivesse ativado a função."
+],
+[
+"p",
+"São casos diferentes, com um ponto em comum: a tecnologia fez mais do que a pessoa esperava, e ninguém percebeu na hora. Isso não é motivo para fugir da IA. É motivo para saber o que ela pode acessar."
+],
+[
+"h2",
+"Por que isso importa para quem trabalha com tecnologia"
+],
+[
+"p",
+"Se a sua empresa usa IA no produto, no atendimento ou nas decisões, a responsabilidade pelo que sai dela é da empresa. Vale perguntar: quem revisa? Que dados o modelo enxerga? O que acontece quando ele erra?"
+],
+[
+"h2",
+"Um checklist rápido para a sua empresa"
+],
+[
+"p",
+"Se a sua empresa já usa alguma ferramenta de IA, três perguntas resolvem boa parte do risco. Primeira: quem revisa o que a ferramenta produz antes de chegar ao cliente? Segunda: a ferramenta enxerga dados pessoais, financeiros ou de saúde? Se sim, ela precisa mesmo enxergar? Terceira: existe um registro do que ela fez, para entender o erro quando ele acontecer?"
+],
+[
+"p",
+"Não precisa de comitê nem de política de vinte páginas para começar. Uma planilha com as ferramentas usadas, quem é o responsável por cada uma e quais dados elas acessam já coloca a empresa em outro patamar."
+],
+[
+"p",
+"E no pessoal vale a mesma lógica. A maioria das permissões do celular foi aceita num clique, sem leitura. Cinco minutos de revisão por mês evitam surpresa."
+],
+[
+"h2",
+"O que fazer hoje, na prática"
+],
+[
+"ul",
+[
 "<b>Android:</b> Configurações → Aplicativos → veja quem tem acesso a microfone e câmera.",
 "<b>iPhone:</b> Ajustes → Privacidade e Segurança → Microfone (e Câmera).",
 "<b>Assistentes de voz:</b> revise e apague o histórico de áudio.",
 "<b>IA no trabalho:</b> descubra quais dados o modelo que você usa consegue acessar."
-]],
-["p", "Recapitulando: a Justiça começou a cobrar quem publica o que a IA inventa, e já há casos de IA agindo além do esperado. A sua parte é simples: saber o que cada ferramenta acessa."],
-["p", "Salva este artigo e faz a revisão hoje, leva cinco minutos."],
-["p", "<b>Simples assim.</b>"],
-["p", "Agora uma pergunta pra você: você já revisou quais acessos as IAs têm no seu celular e no seu trabalho?"]
+]
+],
+[
+"p",
+"Recapitulando: a Justiça começou a cobrar quem publica o que a IA inventa, e já há casos de IA agindo além do esperado. A sua parte é simples: saber o que cada ferramenta acessa."
+],
+[
+"p",
+"Salva este artigo e faz a revisão hoje, leva cinco minutos."
+],
+[
+"p",
+"<b>Simples assim.</b>"
+],
+[
+"p",
+"Agora uma pergunta pra você: você já revisou quais acessos as IAs têm no seu celular e no seu trabalho?"
+]
 ],
 "redes": {
 "instagram": "https://www.instagram.com/brunolimatnp",
@@ -92,29 +321,83 @@
 "palavra": "",
 "material": "",
 "corpo": [
-["p", "A semana trouxe quatro movimentos que mostram a IA saindo da nuvem e chegando mais perto do seu computador e dos seus dados. Este é o resumo, com as fontes de cada notícia reunidas no fim."],
-["h2", "IA grande, rodando no seu computador"],
-["p", "Foi noticiado que o Muse Spark Open, modelo da Meta com 816 bilhões de parâmetros, roda localmente em Macs com Apple Silicon, sem internet. Na prática, isso significa dado que fica na máquina e nenhuma assinatura de nuvem. Ainda exige hardware forte, mas aponta para onde o mercado vai."],
-["p", "No mesmo caminho, segundo o The Decoder, o FLUX 3 Image Klein gera imagens em 4K com apenas 8 GB de memória de vídeo, o que cabe em muitos PCs gamer."],
-["h2", "O assistente dentro do navegador"],
-["p", "Foi noticiado também que o ChatGPT passou a acessar as abas abertas no Chrome quando você menciona o navegador na conversa. Menos copiar e colar, mais contexto. E, junto, a pergunta de sempre: o que exatamente ele está lendo?"],
-["h2", "Quando o agente vai longe demais"],
-["p", "Segundo o The Next Web, agentes de IA em testes acessaram registros privados de empresas indianas. E reportagens contam que a IA usada para auditar o código de um grande banco americano achou tantas falhas que o banco precisou ampliar o time para corrigir. A IA acelera, inclusive o trabalho de quem precisa revisar o que ela encontra."],
-["h2", "Local ou na nuvem: como escolher"],
-["p", "Rodar IA no próprio computador e usar um serviço na nuvem não são caminhos rivais. Cada um resolve um problema. Na nuvem, você ganha os modelos mais capazes sem se preocupar com máquina, mas o dado sai do seu computador e há custo de assinatura. Local, o dado fica com você e não há mensalidade, mas o desempenho depende do seu hardware."],
-["p", "Uma regra prática: informação sensível, como contratos, dados de clientes e documentos internos, pede mais cuidado e é onde o modelo local brilha. Tarefa geral, como resumir uma notícia ou rascunhar um texto, funciona bem na nuvem."],
-["p", "Antes de testar qualquer um, faça a mesma pergunta que atravessa todas as notícias da semana: o que essa ferramenta consegue ver, e eu concordo com isso?"],
-["h2", "O que testar agora"],
-["ul", [
+[
+"p",
+"A semana trouxe quatro movimentos que mostram a IA saindo da nuvem e chegando mais perto do seu computador e dos seus dados. Este é o resumo, com as fontes de cada notícia reunidas no fim."
+],
+[
+"h2",
+"IA grande, rodando no seu computador"
+],
+[
+"p",
+"Foi noticiado que o Muse Spark Open, modelo da Meta com 816 bilhões de parâmetros, roda localmente em Macs com Apple Silicon, sem internet. Na prática, isso significa dado que fica na máquina e nenhuma assinatura de nuvem. Ainda exige hardware forte, mas aponta para onde o mercado vai."
+],
+[
+"p",
+"No mesmo caminho, segundo o The Decoder, o FLUX 3 Image Klein gera imagens em 4K com apenas 8 GB de memória de vídeo, o que cabe em muitos PCs gamer."
+],
+[
+"h2",
+"O assistente dentro do navegador"
+],
+[
+"p",
+"Foi noticiado também que o ChatGPT passou a acessar as abas abertas no Chrome quando você menciona o navegador na conversa. Menos copiar e colar, mais contexto. E, junto, a pergunta de sempre: o que exatamente ele está lendo?"
+],
+[
+"h2",
+"Quando o agente vai longe demais"
+],
+[
+"p",
+"Segundo o The Next Web, agentes de IA em testes acessaram registros privados de empresas indianas. E reportagens contam que a IA usada para auditar o código de um grande banco americano achou tantas falhas que o banco precisou ampliar o time para corrigir. A IA acelera, inclusive o trabalho de quem precisa revisar o que ela encontra."
+],
+[
+"h2",
+"Local ou na nuvem: como escolher"
+],
+[
+"p",
+"Rodar IA no próprio computador e usar um serviço na nuvem não são caminhos rivais. Cada um resolve um problema. Na nuvem, você ganha os modelos mais capazes sem se preocupar com máquina, mas o dado sai do seu computador e há custo de assinatura. Local, o dado fica com você e não há mensalidade, mas o desempenho depende do seu hardware."
+],
+[
+"p",
+"Uma regra prática: informação sensível, como contratos, dados de clientes e documentos internos, pede mais cuidado e é onde o modelo local brilha. Tarefa geral, como resumir uma notícia ou rascunhar um texto, funciona bem na nuvem."
+],
+[
+"p",
+"Antes de testar qualquer um, faça a mesma pergunta que atravessa todas as notícias da semana: o que essa ferramenta consegue ver, e eu concordo com isso?"
+],
+[
+"h2",
+"O que testar agora"
+],
+[
+"ul",
+[
 "<b>Usa Chrome?</b> Veja se a integração do ChatGPT com o navegador já está disponível para você e teste com uma tarefa simples.",
 "<b>Tem Mac com Apple Silicon?</b> Acompanhe os modelos que rodam localmente.",
 "<b>Tem PC com 8 GB de vídeo?</b> Dá para testar geração de imagem local.",
 "<b>Vai usar agentes na empresa?</b> Comece em ambiente de teste, com a menor permissão possível."
-]],
-["p", "Recapitulando: a IA está chegando ao seu computador, ao seu navegador e aos seus dados. Dá para aproveitar muito, desde que você saiba o que ela acessa."],
-["p", "Salva e compartilha com quem acha que IA é só papo de programador."],
-["p", "<b>Simples assim.</b>"],
-["p", "Agora uma pergunta pra você: qual dessas você testaria primeiro?"]
+]
+],
+[
+"p",
+"Recapitulando: a IA está chegando ao seu computador, ao seu navegador e aos seus dados. Dá para aproveitar muito, desde que você saiba o que ela acessa."
+],
+[
+"p",
+"Salva e compartilha com quem acha que IA é só papo de programador."
+],
+[
+"p",
+"<b>Simples assim.</b>"
+],
+[
+"p",
+"Agora uma pergunta pra você: qual dessas você testaria primeiro?"
+]
 ],
 "redes": {}
 }
