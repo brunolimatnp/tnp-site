@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>O que é um agente de IA, na prática — e o freio que todo mundo deveria exigir · TNP</title>
+<meta name="description" content="A Anthropic lançou o Claude Duet, um agente que trabalha sozinho e só para quando a decisão é sua. Serve de gancho para entender o que é um agente e como testar um sem perder o controle.">
+<link rel="canonical" href="https://tecnologianapratica.com.br/blog/o-que-e-um-agente-de-ia/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Tecnologia na Prática">
+<meta property="og:title" content="O que é um agente de IA, na prática — e o freio que todo mundo deveria exigir · TNP">
+<meta property="og:description" content="A Anthropic lançou o Claude Duet, um agente que trabalha sozinho e só para quando a decisão é sua. Serve de gancho para entender o que é um agente e como testar um sem perder o controle.">
+<meta property="og:url" content="https://tecnologianapratica.com.br/blog/o-que-e-um-agente-de-ia/">
+<meta property="og:image" content="https://tecnologianapratica.com.br/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#15302E">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<script>try{var t=localStorage.getItem('tnp-tema');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="/" aria-label="Tecnologia na Prática, início"><svg viewBox="0 0 340 200" aria-hidden="true"><path d="M30 44 L76 101 L30 158" fill="none" stroke="currentColor" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/><rect x="214" y="30" width="103" height="142" rx="51.5" fill="none" stroke="currentColor" stroke-width="27"/><rect x="98" y="163" width="91" height="22" rx="4" fill="#44E07A"/></svg><span>TNP</span><span class="sep" aria-hidden="true"></span><span class="nome-marca">Tecnologia na Prática</span></a>
+<nav class="menu" aria-label="Seções"><a href="/">início</a><a href="/blog/" aria-current="page">blog</a><a href="/materiais/">materiais</a><a href="/sobre/">sobre</a><a href="/empresas/">empresas</a></nav>
+<button class="theme" id="tema" type="button" aria-label="Trocar entre tema claro e escuro" title="Tema claro ou escuro"><svg class="ic-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M5.3 18.7 7 17M17 7l1.7-1.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg class="ic-lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></button>
+</div></header>
+<main>
+<section class="view"><div class="wrap article">
+<article>
+<a href="/blog/" class="mono back">← blog</a>
+<p class="eyebrow">// Ferramenta da Semana · &gt;_&lt;</p>
+<h1>O que é um agente de IA, na prática — e o freio que todo mundo deveria exigir</h1>
+<div class="byline"><span>Bruno Lima</span><span>22/10/2026</span><span>5 min de leitura</span><span>Fonte: The Decoder</span></div>
+<div class="slides" aria-label="Slides do carrossel"><img class="slide" src="/assets/blog/o-que-e-um-agente-de-ia/slide-01.jpg" alt="Slide 1 de 7 do carrossel" width="720" height="900" loading="lazy"><img class="slide" src="/assets/blog/o-que-e-um-agente-de-ia/slide-02.jpg" alt="Slide 2 de 7 do carrossel" width="720" height="900" loading="lazy"><img class="slide" src="/assets/blog/o-que-e-um-agente-de-ia/slide-03.jpg" alt="Slide 3 de 7 do carrossel" width="720" height="900" loading="lazy"><img class="slide" src="/assets/blog/o-que-e-um-agente-de-ia/slide-04.jpg" alt="Slide 4 de 7 do carrossel" width="720" height="900" loading="lazy"><img class="slide" src="/assets/blog/o-que-e-um-agente-de-ia/slide-05.jpg" alt="Slide 5 de 7 do carrossel" width="720" height="900" loading="lazy"><img class="slide" src="/assets/blog/o-que-e-um-agente-de-ia/slide-06.jpg" alt="Slide 6 de 7 do carrossel" width="720" height="900" loading="lazy"><img class="slide" src="/assets/blog/o-que-e-um-agente-de-ia/slide-07.jpg" alt="Slide 7 de 7 do carrossel" width="720" height="900" loading="lazy"></div>
+<div class="prose">
+<p>Esta semana a Anthropic lançou o Claude Duet, um agente de IA que executa tarefas sozinho e só te procura quando a decisão é sua. É um bom gancho para entender, na prática, o que é um "agente" e o que muda quando você passa a delegar trabalho para um, em vez de só fazer perguntas.</p>
+<h2>Agente não é chatbot</h2>
+<p>A diferença é simples. Um chatbot responde: você pergunta, ele devolve um texto. Um agente age: ele executa uma sequência de passos dentro das suas ferramentas, com começo, meio e entrega. No caso do Duet, ele se conecta ao que você já usa, como Gmail e Slack, e trabalha ali dentro, inclusive quando você está offline.</p>
+<p>Isso é o que faz a conversa sobre agentes importar para quem trabalha com tecnologia. Não é mais sobre pedir um resumo. É sobre entregar uma tarefa inteira e confiar que ela será feita.</p>
+<h2>O freio de segurança é o detalhe que importa</h2>
+<p>O ponto mais interessante do Duet não é a autonomia, é o freio. Antes de fazer algo sensível, como pagar, enviar ou excluir, ele para e pede a sua aprovação. Esse desenho, autonomia com um ponto de parada obrigatório, é exatamente o que separa um agente útil de um risco solto.</p>
+<p>Repare que é o mesmo princípio que a gente usa na operação do TNP: a IA produz, mas nada vai para o ar sem o OK de uma pessoa. Delegar não é abrir mão do controle. É mover o controle para o lugar certo, o momento da decisão, e automatizar todo o resto.</p>
+<h2>Ele se integra ao que você já usa</h2>
+<p>O Duet anuncia mais de 6 mil integrações, com Gmail, Slack e Stripe entre elas. Na prática, isso significa que o agente entra no seu fluxo atual em vez de criar mais uma ferramenta isolada. É um sinal de para onde o mercado está indo: menos "abra mais um app", mais "a IA trabalha onde você já está".</p>
+<p>Segundo o The Decoder, o Duet disputa esse espaço com Grok Bot, Muse e Dots. Ou seja, não é um movimento isolado de uma empresa, é uma categoria se formando. Quem entender como esses agentes funcionam agora vai escolher melhor quando precisar adotar um.</p>
+<h2>O risco de delegar sem critério</h2>
+<p>Vale o alerta. Um agente com acesso ao seu e-mail, às suas mensagens e a um meio de pagamento é poderoso e perigoso na mesma medida. O freio de aprovação ajuda, mas a responsabilidade pelo que o agente faz continua sendo de quem o liga.</p>
+<p>A pergunta que você precisa responder antes de soltar qualquer agente é: o que acontece de pior se ele errar aqui? Se a resposta for "manda um e-mail errado", o risco é baixo. Se for "transfere dinheiro" ou "apaga um arquivo", a aprovação manual naquele ponto deixa de ser opcional.</p>
+<h2>Como testar sem perder o controle</h2>
+<p>Se você quer experimentar, faça como a gente faz com qualquer automação nova: comece pequeno, com o freio ligado.</p>
+<ul><li><b>Verifique se você tem acesso.</b> Entre no Claude.ai e veja se o Duet aparece na sua conta.</li><li><b>Conecte só o de baixo risco primeiro.</b> Comece por Gmail ou Slack. Deixe o Stripe, que mexe com pagamento, para depois.</li><li><b>Dê uma tarefa pequena e clara.</b> Peça para triar os e-mails urgentes das últimas 24 horas, por exemplo.</li><li><b>Mantenha a aprovação ligada para qualquer envio</b> e observe por três dias antes de dar mais autonomia.</li></ul>
+<p>Esse roteiro vale para o Duet e para qualquer outro agente. O que muda de ferramenta para ferramenta é o nome dos botões. O método é sempre o mesmo: pouca permissão no começo, tarefa pequena, freio ligado, confiança conquistada aos poucos.</p>
+<h2>O que levar disso</h2>
+<p>Agentes saíram do campo da promessa e entraram no dia a dia de quem trabalha com tecnologia. O Duet é um exemplo claro do formato que está virando padrão: autônomo no trabalho, mas com um ponto obrigatório de decisão humana.</p>
+<p>Entender esse desenho, o que o agente faz sozinho e onde ele para para perguntar, é o que vai te deixar avaliar com calma se e como usar, em vez de correr atrás do hype.</p>
+<p><b>Simples assim.</b></p>
+<p>Agora uma pergunta pra você: qual tarefa você entregaria para um agente, e qual você nunca delegaria?</p>
+<p class="fonte">Fonte: The Decoder</p>
+</div>
+</article>
+<aside class="aside"><div class="box"><h3>Este post nas redes</h3><div class="netlinks"><a href="https://www.instagram.com/brunolimatnp" target="_blank" rel="noopener">Instagram <span>→</span></a><a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519101500598566912" target="_blank" rel="noopener">LinkedIn <span>→</span></a></div></div><div class="box"><h3>Fale com o Bruno</h3><p>Palestras e consultoria para o seu time.</p><a class="btn" href="/empresas/">Para empresas →</a></div></aside>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div><div class="tag">Simples <span class="hl">assim.</span></div><div class="apoio">Menos hype. Mais prática.</div></div>
+<nav class="foot-links mono" aria-label="Rodapé"><a href="/links/">redes</a><a href="/termos.html">termos</a><a href="/privacidade.html">privacidade</a></nav>
+</div></footer>
+<script src="/assets/site.js" defer></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "74e68677f70541d39dc59f61ccc2612b"}'></script>
+</body>
+</html>
