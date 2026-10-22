@@ -3,6 +3,23 @@ import json, os, html, re, shutil
 # Uso (WSL): cd /mnt/c/Projetos/tnp-site && python3 _fonte/build.py
 B=os.path.dirname(os.path.abspath(__file__)); OUT=os.path.dirname(B)
 os.makedirs(os.path.join(OUT,'assets'),exist_ok=True)
+# No CI (GitHub Actions, com Pillow) redimensiona slides PNG -> JPG 720px. No PC os JPG ja vem prontos.
+try:
+    from PIL import Image
+    bd=os.path.join(OUT,'assets','blog')
+    if os.path.isdir(bd):
+        for slug in os.listdir(bd):
+            d=os.path.join(bd,slug)
+            if not os.path.isdir(d): continue
+            for f in sorted(os.listdir(d)):
+                if f.startswith('slide-') and f.endswith('.png'):
+                    jp=os.path.join(d,f[:-4]+'.jpg')
+                    im=Image.open(os.path.join(d,f)).convert('RGB')
+                    w,h=im.size; nw=720; nh=max(1,round(h*nw/w))
+                    im.resize((nw,nh)).save(jp,'JPEG',quality=82)
+                    os.remove(os.path.join(d,f))
+except Exception:
+    pass
 arts=json.load(open(os.path.join(B,'artigos.json'),encoding='utf-8'))
 DOM='https://tecnologianapratica.com.br'
 SYM='<svg viewBox="0 0 340 200" aria-hidden="true"><path d="M30 44 L76 101 L30 158" fill="none" stroke="currentColor" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/><rect x="214" y="30" width="103" height="142" rx="51.5" fill="none" stroke="currentColor" stroke-width="27"/><rect x="98" y="163" width="91" height="22" rx="4" fill="#44E07A"/></svg>'
