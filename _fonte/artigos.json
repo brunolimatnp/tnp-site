@@ -1,5 +1,109 @@
 [
   {
+    "slug": "sinais-de-texto-escrito-por-ia",
+    "data": "27/10/2026",
+    "quadro": "Você Sabia?",
+    "face": "O_O",
+    "min": 4,
+    "titulo": "Como saber se um texto foi escrito por IA — e ajustar antes de publicar",
+    "resumo": "Frase longa demais, palavra de enchimento, estrutura que não muda e texto sem posição. Segundo o The Decoder, são os sinais mais comuns de texto gerado por IA — e dá para corrigir em minutos.",
+    "fonte": "The Decoder",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "A IA escreve bem, rápido e sem reclamar. Mas ela deixa marcas, e quem trabalha com conteúdo, comunicação ou produto precisa saber reconhecê-las. Não para caçar quem usou IA, e sim para revisar o próprio texto antes de ele ir para o mundo. Segundo o The Decoder, os sinais são quase sempre os mesmos, e depois que você aprende a vê-los não desvê mais."
+      ],
+      [
+        "h2",
+        "Por que isso virou parte do trabalho"
+      ],
+      [
+        "p",
+        "Texto é entrega. Um e-mail, uma legenda, uma proposta, a descrição de um produto, tudo passa pelos olhos de alguém que decide ali se confia ou não em você. Quando o texto sai do modelo e vai direto para a publicação, sem ajuste, o leitor sente. Fica correto, mas sem dono. E conteúdo sem dono não convence."
+      ],
+      [
+        "p",
+        "A boa notícia é que corrigir custa menos do que escrever do zero. Dá para pegar o rascunho da IA e, em poucos minutos, deixá-lo com a sua cara. O primeiro passo é saber onde olhar."
+      ],
+      [
+        "h2",
+        "Quatro sinais de que o texto saiu direto do modelo"
+      ],
+      [
+        "p",
+        "São padrões que se repetem, não importa o assunto:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Frases longas demais.</b> O modelo tenta ser completo numa frase só, empilha vírgula sobre vírgula, e o leitor perde o fio no meio. Uma ideia por frase quase sempre lê melhor.",
+          "<b>Palavras de enchimento.</b> \"Cabe ressaltar\", \"é importante destacar\", \"vale mencionar\". Parecem sofisticadas, mas só adiam o que você tem a dizer.",
+          "<b>Estrutura que nunca muda.</b> Sujeito, verbo e complemento, de novo e de novo. Sem variação de ritmo, o texto fica mecânico, e é esse compasso previsível que entrega a máquina.",
+          "<b>Texto que não toma posição.</b> O modelo equilibra os dois lados e não conclui nada. Parece neutro e maduro, mas é vazio. Quem lê quer saber o que você pensa."
+        ]
+      ],
+      [
+        "p",
+        "Nenhum desses sinais significa que a IA é ruim ou que você não deve usá-la. Significa que o rascunho dela é um ponto de partida, não o ponto final. O trabalho de quem publica é transformar esse rascunho em algo que soe como gente."
+      ],
+      [
+        "h2",
+        "Um exemplo rápido"
+      ],
+      [
+        "p",
+        "Veja a diferença na prática. Um rascunho de IA costuma sair assim: \"É importante destacar que a adoção de novas ferramentas, embora traga benefícios, também apresenta desafios que precisam ser cuidadosamente considerados.\" Está correto e não diz quase nada."
+      ],
+      [
+        "p",
+        "A versão revisada seria: \"Ferramenta nova traz ganho e traz dor de cabeça. Vale testar numa tarefa pequena antes de soltar no time inteiro.\" Ficou mais curta, com posição e com um próximo passo. Foi só aplicar os cortes."
+      ],
+      [
+        "h2",
+        "Corrija antes de publicar"
+      ],
+      [
+        "p",
+        "Reconhecer os sinais é metade do caminho. A outra metade é um ajuste rápido, que cabe em qualquer rotina. Pegue o texto que a IA gerou e passe por estes quatro passos:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Quebre as frases longas.</b> Frase com mais de duas vírgulas quase sempre são duas frases disfarçadas de uma. Separe.",
+          "<b>Delete os enchimentos.</b> Procure por \"cabe ressaltar\" e parentes e apague sem dó. O texto só melhora.",
+          "<b>Troque exemplos genéricos por situações reais.</b> Onde a IA pôs \"uma empresa\", coloque o seu caso, o seu cliente, o seu número.",
+          "<b>Termine com a sua posição.</b> Fim de parágrafo é lugar de opinião, não de meio-termo. Diga o que você acha."
+        ]
+      ],
+      [
+        "p",
+        "Repare que nenhum desses passos pede reescrever tudo. É edição, não autoria. A IA faz o volume, você coloca o critério, e critério é exatamente o que o modelo ainda não entrega sozinho."
+      ],
+      [
+        "p",
+        "Recapitulando: frase longa, enchimento, estrutura repetida e falta de posição são os sinais mais comuns de texto gerado por IA, segundo o The Decoder. E a correção é simples: quebrar, cortar, concretizar e opinar. Fazer isso toda vez é o que separa quem usa a IA de quem é usado por ela."
+      ],
+      [
+        "p",
+        "Salva este post para ter o checklist à mão na hora de revisar."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: qual desses sinais você já pegou num texto seu?"
+      ]
+    ],
+    "redes": {
+      "instagram": "https://www.instagram.com/brunolimatnp",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520874748839657472"
+    }
+  },
+  {
     "slug": "agentes-autonomos-e-seguranca",
     "data": "23/10/2026",
     "quadro": "Resumo TNP",
