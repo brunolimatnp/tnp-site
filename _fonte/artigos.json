@@ -1,5 +1,102 @@
 [
   {
+    "slug": "brecha-no-microsoft-authenticator",
+    "data": "28/10/2026",
+    "quadro": "Na Prática",
+    "face": "^_^",
+    "min": 4,
+    "titulo": "Microsoft Authenticator teve uma brecha no Android: como checar se você está protegido",
+    "resumo": "Segundo o Tecnoblog, uma brecha no Microsoft Authenticator para Android permitia capturar os códigos de autenticação. O app guarda o acesso a e-mail corporativo, Microsoft 365 e Teams — veja em um minuto como checar a versão e se proteger.",
+    "fonte": "Tecnoblog",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "O aplicativo que deveria blindar as suas contas virou, por um tempo, a porta de entrada. Segundo o Tecnoblog, o Microsoft Authenticator para Android tinha uma brecha que permitia a invasores capturar os códigos de autenticação gerados pelo próprio app. É o tipo de notícia que assusta, mas a reação certa não é pânico — é abrir o celular e checar uma coisa. Leva um minuto, e este texto mostra o passo a passo."
+      ],
+      [
+        "h2",
+        "O que o autenticador faz — e por que isso importa"
+      ],
+      [
+        "p",
+        "Quando você liga a verificação em duas etapas, o autenticador é a segunda chave. A senha é a primeira; o código que muda a cada poucos segundos é a segunda. A ideia é simples: mesmo que alguém descubra a sua senha, não entra sem o código. E esse código é justamente o que o Microsoft Authenticator guarda para e-mail corporativo, Microsoft 365, Teams e dezenas de outros serviços."
+      ],
+      [
+        "p",
+        "Agora inverta a lógica. Se a brecha estava no app que gera o código, a segunda chave deixou de ser secreta. Segundo o Tecnoblog, era isso que estava em jogo no Android: a camada que existe para proteger o resto ficou, ela mesma, exposta. Por isso a checagem vale o seu minuto, mesmo que você ache que nunca seria alvo."
+      ],
+      [
+        "h2",
+        "Como checar agora, sem enrolação"
+      ],
+      [
+        "p",
+        "Não precisa entender de segurança para fazer isso. São três passos, no seu próprio celular:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Veja a versão instalada.</b> Abra o Microsoft Authenticator, toque nos três pontinhos no canto, entre em Ajuda e anote o número da versão que aparece ali.",
+          "<b>Atualize pela Play Store.</b> Abra a Play Store, toque na sua foto, vá em Gerenciar apps e dispositivo e procure o Authenticator na lista de atualizações pendentes. Se ele estiver lá, toque em atualizar.",
+          "<b>Confirme que mudou.</b> Volte ao app, repita o primeiro passo e veja se o número da versão subiu. Se subiu, você está na versão corrigida."
+        ]
+      ],
+      [
+        "p",
+        "Se o Authenticator não aparece na lista de atualizações, é provável que o seu celular já tenha baixado a correção sozinho — e é isso que você quer. A confirmação pela versão é o que tira a dúvida de vez."
+      ],
+      [
+        "h2",
+        "Desconfiou que entraram na sua conta?"
+      ],
+      [
+        "p",
+        "Checar a versão resolve o futuro. Mas se você tem qualquer suspeita de que alguém acessou a sua conta nos últimos dias, trate o passado também. Três ações, nesta ordem:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Troque a senha</b> da conta principal ligada ao autenticador.",
+          "<b>Revogue as sessões ativas.</b> Nas configurações de segurança da conta existe uma lista de dispositivos conectados; derrube todos e deixe só os seus.",
+          "<b>Avise o TI</b> se for uma conta da empresa. Não é burocracia: uma conta corporativa comprometida pode abrir acesso a muito mais do que o seu e-mail."
+        ]
+      ],
+      [
+        "h2",
+        "A prática que fica depois do susto"
+      ],
+      [
+        "p",
+        "Notícia de brecha some do feed em dois dias. O hábito que ela deveria deixar é outro: app de segurança não pode ficar desatualizado. É justamente nessas ferramentas que a atualização corrige o buraco por onde alguém entraria."
+      ],
+      [
+        "p",
+        "Então faça agora uma coisa que te poupa da próxima manchete: ative a atualização automática para os apps de segurança do celular. Na Play Store, em Gerenciar apps, dá para deixar a atualização automática ligada. Assim a correção chega antes de você ler sobre o problema."
+      ],
+      [
+        "p",
+        "Recapitulando: segundo o Tecnoblog, o Microsoft Authenticator para Android teve uma brecha que expunha códigos de autenticação. O que fazer cabe em três movimentos — checar a versão, atualizar e confirmar — mais um hábito que fecha a porta: atualização automática ligada para apps de segurança."
+      ],
+      [
+        "p",
+        "Manda este passo a passo para quem usa o Authenticator no trabalho. Leva um minuto para cada pessoa, e a segurança de uma equipe é sempre a do integrante mais desatento."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: você deixa as atualizações automáticas ligadas para os apps de segurança do celular, ou ainda atualiza na mão?"
+      ]
+    ],
+    "redes": {
+      "instagram": "https://www.instagram.com/brunolimatnp"
+    }
+  },
+  {
     "slug": "sinais-de-texto-escrito-por-ia",
     "data": "27/10/2026",
     "quadro": "Você Sabia?",
