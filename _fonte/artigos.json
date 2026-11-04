@@ -1,5 +1,95 @@
 [
   {
+    "slug": "claude-message-threads-mais-rapido",
+    "data": "04/11/2026",
+    "quadro": "Na Prática",
+    "face": "^_^",
+    "min": 4,
+    "titulo": "Message Threads do Claude: o recurso que deixa a API até 35% mais rápida (sem mexer no custo)",
+    "resumo": "Segundo a Anthropic, o novo Message Threads — ainda em beta — deixa a API do Claude até 35% mais rápida na primeira resposta em conversas muito longas. O ganho é de velocidade, não de conta: a qualidade e o custo seguem iguais, muda só o que trafega na rede. Veja o que é, quem sente a diferença e como ligar em 4 passos.",
+    "fonte": "Anthropic",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "Se você já conversou com o Claude pela API — aquele acesso que conecta o modelo direto a um sistema, um chatbot ou um app —, talvez tenha notado uma coisa: quanto mais longa a conversa fica, mais devagar a resposta começa a aparecer. A Anthropic acaba de mexer exatamente nesse ponto. Segundo a empresa, um recurso novo chamado Message Threads, ainda em beta, corta até 35% do tempo até a primeira resposta em requisições muito longas. E, ao contrário do que parece, isso não tem a ver com um modelo mais esperto — tem a ver com o que viaja pela internet a cada mensagem."
+      ],
+      [
+        "h2",
+        "O gargalo que ninguém via"
+      ],
+      [
+        "p",
+        "Para continuar uma conversa, o Claude precisa do contexto inteiro: tudo o que foi dito até ali. O problema estava em como isso era entregue. A cada nova mensagem, a API reenviava o histórico completo da conversa de novo, do começo. Imagine ter que reler em voz alta todas as páginas de um livro antes de dizer cada frase nova. Em conversas curtas, ninguém sente. Em conversas que acumulam centenas de milhares de palavras, esse reenvio vira um peso — e é ele que faz a resposta demorar mais para começar."
+      ],
+      [
+        "h2",
+        "O que muda com o Message Threads"
+      ],
+      [
+        "p",
+        "A ideia do recurso é simples: em vez de mandar tudo de novo, você manda só a mensagem nova. O histórico fica guardado do lado do Claude por um curto período, então não precisa trafegar outra vez. Menos dados subindo pela rede a cada turno significa menos tempo de espera. É uma economia de viagem, não de conteúdo — o modelo continua enxergando a conversa inteira."
+      ],
+      [
+        "h2",
+        "35% mais rápido — e o que não muda"
+      ],
+      [
+        "p",
+        "Aqui vale o cuidado de sempre: separar o ganho real do exagero. Segundo a Anthropic, o Message Threads reduz em cerca de 35% o tempo até a primeira resposta em requisições muito longas. Esse é o ganho — velocidade. O que não muda é tão importante quanto: a qualidade das respostas é a mesma, porque o modelo lê exatamente o mesmo contexto; e o custo também é o mesmo, porque você paga pelos tokens que o modelo processa, e ele continua processando tudo. Não é um desconto na fatura. O que diminui é só o volume de dados que viaja na rede a cada mensagem."
+      ],
+      [
+        "h2",
+        "Quem sente a diferença de verdade"
+      ],
+      [
+        "p",
+        "Se a sua conversa com o Claude tem três ou quatro mensagens, o ganho é pequeno — quase imperceptível. O recurso brilha em outro cenário: sistemas que mantêm sessões longas e ativas. Chatbots de atendimento que seguram um atendimento por muito tempo, assistentes internos que acompanham um usuário o dia todo, agentes que executam tarefas em muitos passos. Nesses casos, cada segundo a menos na resposta se multiplica por milhares de interações — e aí a diferença aparece."
+      ],
+      [
+        "h2",
+        "Como ativar em 4 passos"
+      ],
+      [
+        "p",
+        "Se você constrói com a API do Claude, dá para testar ainda esta semana. O caminho, segundo a Anthropic, é este:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Ligue o recurso no cabeçalho.</b> Adicione o header beta <b>message-threads-2026-08-12</b> nas suas chamadas.",
+          "<b>Na primeira chamada, crie o thread.</b> Envie o campo <b>thread</b> com <b>{type: create}</b> junto do histórico que você já tem.",
+          "<b>Nas próximas, mande só o novo.</b> A partir daí, envie apenas a mensagem nova mais o <b>previous_message_id</b> — o identificador que veio na resposta anterior. Guarde esse id; é ele que costura a conversa.",
+          "<b>Tenha a sua própria cópia do histórico.</b> O thread do lado do Claude expira em cerca de 5 minutos. Ele serve para acelerar, não para ser o seu banco de dados: a conversa de verdade você continua guardando no seu lado."
+        ]
+      ],
+      [
+        "h2",
+        "A prática que fica"
+      ],
+      [
+        "p",
+        "Recapitulando: segundo a Anthropic, o Message Threads deixa a API do Claude até 35% mais rápida na primeira resposta em conversas muito longas, porque passa a trafegar só a mensagem nova em vez do histórico inteiro. A qualidade e o custo seguem iguais — o ganho é de velocidade. Vale mais para quem roda sessões longas, como chatbots, assistentes e agentes. E ligar leva quatro passos: header beta, criar o thread, continuar com o previous_message_id e manter a sua cópia do histórico."
+      ],
+      [
+        "p",
+        "Salva este post para quando for mexer na sua integração — e, se você tem um dev no time ou um sistema que conversa com o Claude o tempo todo, manda para quem cuida disso testar."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: onde um ganho de velocidade na resposta faria mais diferença no que você usa hoje — num chatbot de atendimento, num assistente interno ou num agente que trabalha sozinho?"
+      ]
+    ],
+    "redes": {
+      "instagram": "https://www.instagram.com/brunolimatnp"
+    }
+  },
+  {
     "slug": "agentes-de-ia-fora-do-roteiro",
     "data": "03/11/2026",
     "quadro": "Você Sabia?",
