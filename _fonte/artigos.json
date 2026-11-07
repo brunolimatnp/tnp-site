@@ -1,5 +1,87 @@
 [
   {
+    "slug": "voce-confiaria-numa-ia-no-tratamento",
+    "data": "07/11/2026",
+    "quadro": "Pergunta Quente",
+    "face": "o_O",
+    "min": 4,
+    "titulo": "Você confiaria numa IA para decidir seu tratamento? O debate que já chegou ao consultório",
+    "resumo": "A IA já lê exames e sugere diagnósticos em hospitais no Brasil e no mundo. Ela pode ser decisiva onde falta médico, mas não conhece o seu medo, o seu bolso nem o que você já tentou — e pode errar de forma sistemática quando é treinada com dados enviesados. Antes de confiar (ou recusar), vale separar o que ela faz bem do que ela não sabe sobre você.",
+    "fonte": "TNP",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "A pergunta parece de filme, mas já é de hoje: em hospitais no Brasil e no mundo, a inteligência artificial lê exames, sugere diagnósticos e ajuda a indicar protocolos de tratamento. Quando isso sai da teoria e entra na sua consulta, a dúvida fica concreta — você confiaria numa IA para decidir o seu tratamento? Antes de responder com um \"claro que não\" ou um \"por que não?\", vale olhar para os dois lados com calma. É o que a gente vai fazer aqui."
+      ],
+      [
+        "h2",
+        "A IA já está no consultório"
+      ],
+      [
+        "p",
+        "Primeiro, um ajuste de expectativa: isso não é promessa de futuro. A leitura de exames de imagem, a sugestão de possíveis diagnósticos e a indicação de protocolos com apoio de IA já acontecem na rotina de hospitais e clínicas. Na maioria das vezes a ferramenta é um apoio ao médico, não uma substituta dele. Mas o fato é esse: a tecnologia já entrou pela porta da frente, e fingir que não entrou só nos deixa despreparados para a conversa."
+      ],
+      [
+        "h2",
+        "O que ela faz bem"
+      ],
+      [
+        "p",
+        "Dá para entender o entusiasmo. Uma IA não cansa no fim do plantão, não deixa o humor do dia atrapalhar a leitura de um exame e foi treinada com mais casos do que qualquer médico vê numa carreira inteira. Num detalhe sutil dentro de uma imagem, numa correlação entre sintomas que passaria batida num dia corrido, esse tipo de sistema pode ser um segundo olhar valioso. Ninguém está dizendo que isso é pouco."
+      ],
+      [
+        "h2",
+        "O que ela não sabe sobre você"
+      ],
+      [
+        "p",
+        "Aí entra o outro lado. A IA conhece o seu caso pelos dados — mas não conhece você. Ela não sabe do seu medo de cirurgia, não sabe que aquele remédio \"ideal\" está muito acima do que cabe no seu orçamento, nem que você já tentou um tratamento parecido e ele não funcionou. Medicina não é só acertar o diagnóstico; é escolher, junto com a pessoa, um caminho que ela consiga seguir na vida real. Essa parte ainda é muito humana."
+      ],
+      [
+        "h2",
+        "O contraponto que incomoda os dois lados"
+      ],
+      [
+        "p",
+        "E se a gente virar a pergunta? Em muitos lugares do Brasil, o problema não é escolher entre o médico e a IA — é não ter médico nenhum por perto. Onde falta especialista, uma IA com boa acurácia pode ser mais útil do que esperar meses por uma consulta que talvez não aconteça. Isso incomoda quem defende a cautela. E deveria incomodar também quem só vê a tecnologia: o objetivo é cuidar de gente, não exibir ferramenta. O ponto honesto é que o \"certo\" muda conforme o contexto de quem precisa."
+      ],
+      [
+        "h2",
+        "O risco que quase ninguém comenta"
+      ],
+      [
+        "p",
+        "Tem um risco que costuma ficar de fora da conversa, e talvez seja o mais importante. Uma IA aprende com os dados que recebe. Se esses dados representam mal certos grupos — mulheres, pessoas negras, populações rurais —, o sistema pode errar de forma sistemática justamente com quem já é menos atendido. Não é \"maldade\" da máquina; é um espelho dos dados que entraram. E, diferente de um erro pontual, um viés escondido no treino se repete em silêncio, caso após caso. Por isso a pergunta não é só \"a IA acerta?\", mas \"ela acerta para quem?\"."
+      ],
+      [
+        "h2",
+        "Então, dá pra confiar?"
+      ],
+      [
+        "p",
+        "Recapitulando o debate: a IA já está nos consultórios; faz bem o que depende de volume e constância; não sabe do seu medo, do seu bolso nem da sua história; pode ser decisiva onde não há especialista; e pode errar de forma sistemática quando é treinada com dados enviesados. Talvez a resposta mais prática não seja \"confio\" nem \"não confio\", e sim <b>confio na IA com um médico confirmando</b> — a tecnologia como apoio à decisão, não como dona dela."
+      ],
+      [
+        "p",
+        "Salva este post para a próxima vez que o assunto aparecer numa conversa — e compartilha com aquela pessoa que trabalha na saúde ou que vive dizendo que \"isso é coisa de filme\". Vale o papo."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: você deixaria uma IA decidir o seu tratamento sem um médico confirmando?"
+      ]
+    ],
+    "redes": {
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7524841543011332099",
+      "instagram": "https://www.instagram.com/brunolimatnp"
+    }
+  },
+  {
     "slug": "claude-message-threads-mais-rapido",
     "data": "04/11/2026",
     "quadro": "Na Prática",
