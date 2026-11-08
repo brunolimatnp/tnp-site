@@ -1,5 +1,92 @@
 [
   {
+    "slug": "golpe-voz-clonada-de-ceo",
+    "data": "08/11/2026",
+    "quadro": "Tech Radar",
+    "face": ">_O",
+    "min": 4,
+    "titulo": "Golpe de US$ 129 milhões com voz clonada de CEO: como o esquema funcionou — e como se proteger",
+    "resumo": "Segundo o The Next Web, três pessoas foram indiciadas nos EUA por desviar US$ 129 milhões com um golpe que combinava e-mail falso, voz de CEO clonada por IA e um falso advogado. O ataque não explora uma falha técnica, e sim a forma como as empresas aprovam dinheiro sob pressa e sigilo. Veja como o esquema funcionou, por que engana até gente experiente e quatro medidas de processo para blindar as suas transferências.",
+    "fonte": "The Next Web",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "Dá para roubar US$ 129 milhões com uma única ligação de telefone? Dá — se a voz do outro lado da linha for a do seu CEO e tiver sido clonada por inteligência artificial. Segundo o The Next Web, três pessoas foram indiciadas nos Estados Unidos por desviar exatamente esse valor usando IA para imitar a voz de executivos. Não é cena de filme nem ameaça distante: é um caso real, que já virou processo. E o mais importante para o seu dia a dia é que o golpe explora menos a tecnologia e mais a forma como as empresas aprovam dinheiro. A boa notícia: a defesa está nas suas mãos."
+      ],
+      [
+        "h2",
+        "O que o Tech Radar captou"
+      ],
+      [
+        "p",
+        "Segundo o The Next Web, o grupo é acusado de aplicar um golpe de US$ 129 milhões juntando três peças simples: um e-mail falso, uma ligação com voz clonada por IA e um falso advogado para dar aparência de formalidade ao pedido. O detalhe que chama atenção é esse ingrediente novo. Clonar uma voz, que até pouco tempo exigia estúdio, equipamento e tempo, hoje cabe em ferramentas acessíveis — e foi justamente isso que derrubou a última barreira de desconfiança de quem autorizava as transferências."
+      ],
+      [
+        "h2",
+        "Como o esquema funcionou, passo a passo"
+      ],
+      [
+        "p",
+        "O ataque seguia uma sequência pensada para desarmar as defesas uma de cada vez. Tudo começava com um e-mail que parecia vir do próprio CEO, pedindo uma transferência urgente e sigilosa. Os dois adjetivos não estão ali por acaso: a urgência serve para encurtar o pensamento de quem recebe, e o sigilo serve para impedir que a pessoa confira o pedido com um colega ao lado."
+      ],
+      [
+        "p",
+        "Em seguida vinha a ligação. A mesma instrução do e-mail era repetida por telefone, agora com a voz do executivo reproduzida por IA. Esse é o ponto que muda o jogo: ouvir a voz conhecida do chefe elimina a desconfiança natural que um e-mail, sozinho, ainda deixa no ar. Por fim entrava em cena um suposto advogado, que conduzia toda a burocracia com calma e autoridade até o dinheiro sair. Era esse terceiro elo que transformava um pedido estranho em algo com cara de processo oficial."
+      ],
+      [
+        "h2",
+        "Por que engana até gente experiente"
+      ],
+      [
+        "p",
+        "É tentador pensar 'eu nunca cairia nessa'. Mas o golpe não aposta na ingenuidade de ninguém — aposta na pressa e na hierarquia. Quando o 'CEO' pede, em primeira pessoa e com uma voz reconhecível, algo urgente e confidencial, o instinto de muita gente é resolver rápido para não parecer que está travando o chefe. A IA não precisou vencer a sua razão; bastou imitar um sinal em que a gente sempre confiou de olhos fechados — a voz de alguém conhecido. E esse sinal, que antes era quase impossível de falsificar, ficou barato de produzir."
+      ],
+      [
+        "h2",
+        "Como se proteger agora"
+      ],
+      [
+        "p",
+        "A melhor parte é que a correção não é técnica, é de processo — e cabe em qualquer empresa, do time de dez pessoas à multinacional. Quatro medidas resolvem a maior parte do risco:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Confirme transferências por um número cadastrado previamente.</b> Nunca use o contato que veio no e-mail ou na ligação suspeita; ligue para o número que você já tinha antes.",
+          "<b>Exija dois canais independentes para aprovar qualquer instrução.</b> Um pedido só vira ordem quando é confirmado por uma segunda via — outra pessoa, outro meio.",
+          "<b>Trate urgência e sigilo como sinais de alarme, não de autoridade.</b> Pressa e 'não comente com ninguém' são exatamente o que o golpe precisa para funcionar.",
+          "<b>Verifique advogados e terceiros no site oficial do escritório.</b> Se alguém aparece conduzindo a burocracia, confirme a identidade pela fonte oficial, não pelo contato que ele mesmo passou."
+        ]
+      ],
+      [
+        "h2",
+        "Recapitulando"
+      ],
+      [
+        "p",
+        "Resumindo o que o Tech Radar trouxe hoje: segundo o The Next Web, um golpe de US$ 129 milhões combinou e-mail falso, voz de CEO clonada por IA e um falso advogado; ele funciona porque explora a pressa e a confiança na voz, não uma falha de computador; e se blinda com processo — número cadastrado, dupla confirmação, desconfiança de urgência e verificação pela fonte oficial. A tecnologia que clona a voz ficou acessível, mas a decisão de soltar o dinheiro continua sendo humana. É nela que você tem controle."
+      ],
+      [
+        "p",
+        "Salva este post e compartilha com quem cuida do financeiro na sua empresa — é o tipo de combinado que vale alinhar antes de precisar."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: a sua empresa já tem um protocolo de dupla confirmação para transferências, ou hoje uma ligação convincente bastaria?"
+      ]
+    ],
+    "redes": {
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525227426872897537",
+      "instagram": "https://www.instagram.com/brunolimatnp"
+    }
+  },
+  {
     "slug": "voce-confiaria-numa-ia-no-tratamento",
     "data": "07/11/2026",
     "quadro": "Pergunta Quente",
