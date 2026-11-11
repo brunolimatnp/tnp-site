@@ -1,5 +1,95 @@
 [
   {
+    "slug": "ia-le-dna-celula-por-celula",
+    "data": "11/11/2026",
+    "quadro": "Na Prática",
+    "face": "^_^",
+    "min": 4,
+    "titulo": "A IA que lê o DNA célula por célula: o que muda com o AlphaGenome 2",
+    "resumo": "Cada célula do seu corpo carrega o mesmo DNA, mas lê esse código de um jeito diferente — e prever o efeito de uma mutação caso a caso é um dos maiores desafios da biologia. Foi noticiado que o Google DeepMind apresentou o AlphaGenome 2, um modelo de IA que faz exatamente isso. Segundo o The Verge, ele foi treinado com dados de 68 tecidos humanos, detecta quase o dobro de variantes genéticas relevantes que a versão anterior e lida com tipos celulares novos sem retreinar do zero. Veja o que muda na prática e por que isso pode chegar até o seu médico.",
+    "fonte": "The Verge",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "Você tem o mesmo DNA em cada célula do seu corpo — do coração à pele, da retina às células de defesa. Então por que uma célula do coração bate e uma da pele cicatriza, se o manual de instruções é idêntico? A resposta é que cada tipo de célula lê esse mesmo DNA de um jeito diferente: liga uns genes e silencia outros. Entender essa leitura, célula por célula, é um dos trabalhos mais difíceis da biologia — e é justamente aí que entra uma nova inteligência artificial do Google DeepMind. Vamos ver, na prática, o que ela faz e por que isso pode chegar até o seu médico."
+      ],
+      [
+        "h2",
+        "O mesmo DNA, leituras diferentes"
+      ],
+      [
+        "p",
+        "Comece por essa ideia, porque todo o resto depende dela. O DNA é praticamente o mesmo em todas as suas células, mas cada tecido usa esse código de um jeito próprio — ativa certos genes, desliga outros. É isso que faz uma célula virar músculo e outra virar neurônio, com o mesmo ponto de partida. Quando aparece uma mutação, o efeito dela também muda de célula para célula: a mesma alteração pode ser inofensiva num tecido e perigosa em outro. Prever esse efeito, caso a caso, é o quebra-cabeça que a nova ferramenta tenta resolver."
+      ],
+      [
+        "h2",
+        "O que é o AlphaGenome 2"
+      ],
+      [
+        "p",
+        "Foi noticiado que o Google DeepMind apresentou o AlphaGenome 2, um modelo de IA feito para prever como mutações no DNA afetam cada tipo de célula. Em vez de olhar o genoma como um texto único, ele tenta antecipar o que uma variante genética provoca especificamente no coração, na pele ou no sistema imunológico. Segundo o The Verge, o modelo foi treinado com dados de 68 tecidos humanos diferentes, somando cerca de 100 milhões de perfis — a matéria-prima que ensina a IA a diferenciar uma leitura da outra."
+      ],
+      [
+        "h2",
+        "O que mudou em relação à versão anterior"
+      ],
+      [
+        "p",
+        "Dois avanços chamam atenção. Segundo o The Verge, o AlphaGenome 2 identifica quase o dobro de variantes genéticas relevantes na comparação com o modelo anterior — ou seja, enxerga alterações importantes que antes passavam batido. E, ainda segundo o The Verge, ele consegue fazer previsões sobre tipos celulares novos sem precisar ser retreinado do zero. Na prática, quando surge um tecido ou um caso que ele ainda não tinha visto, o modelo já começa a trabalhar em vez de voltar para a estaca zero."
+      ],
+      [
+        "h2",
+        "Por que isso importa na prática"
+      ],
+      [
+        "p",
+        "Aqui é onde a biologia encontra o seu dia a dia. Muitas doenças — o câncer é o exemplo mais conhecido — têm raiz em células específicas, e não no corpo inteiro de uma vez. Uma ferramenta que aponta em qual tipo de célula uma mutação causa estrago ajuda os pesquisadores a mirar onde o problema realmente começa. Isso não cura nada sozinho, mas tem efeito concreto no caminho até o remédio:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Antecipa experimentos de laboratório.</b> Em vez de testar tudo no escuro, a equipe prioriza as hipóteses que o modelo aponta como mais promissoras.",
+          "<b>Encurta a busca por alvos.</b> Saber onde a doença começa ajuda a decidir qual gene ou célula atacar com um tratamento.",
+          "<b>Acelera o desenvolvimento de medicamentos.</b> Menos tentativa e erro no início costuma significar menos tempo e menos custo até um remédio virar realidade."
+        ]
+      ],
+      [
+        "h2",
+        "O que dá pra tirar disso hoje"
+      ],
+      [
+        "p",
+        "Mesmo que você não trabalhe com saúde, esse caso ensina uma lição útil sobre para onde a IA está indo. Ela está deixando de ser só o robô que escreve texto e virando uma lente para enxergar sistemas complexos demais para a gente acompanhar à mão — e o genoma é um deles. A graça não é a IA saber tudo, e sim apontar onde vale a pena um humano olhar com atenção. Essa é a forma madura de usar essas ferramentas no seu trabalho: deixar que elas estreitem o campo e guardar a decisão final para quem entende do assunto."
+      ],
+      [
+        "h2",
+        "Recapitulando"
+      ],
+      [
+        "p",
+        "Resumindo o que o Na Prática trouxe hoje: cada célula lê o mesmo DNA de um jeito diferente, e prever o efeito de uma mutação caso a caso é um desafio enorme. O AlphaGenome 2, do Google DeepMind, ataca justamente isso — e, segundo o The Verge, foi treinado com 68 tecidos humanos (cerca de 100 milhões de perfis), detecta quase o dobro de variantes relevantes que o modelo anterior e trabalha com tipos celulares novos sem retreinar do zero. Para a sua vida, o que importa é o destino: entender onde uma doença começa é o primeiro passo para tratá-la melhor."
+      ],
+      [
+        "p",
+        "Salva este post pra lembrar quando o assunto aparecer, e compartilha com quem trabalha com saúde ou pesquisa — é o tipo de avanço que vale acompanhar de perto."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: você confiaria mais num tratamento sabendo que uma IA ajudou a mapear onde a sua doença começa, ou ainda bate aquele pé atrás?"
+      ]
+    ],
+    "redes": {
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526326892313030656",
+      "instagram": "https://www.instagram.com/brunolimatnp"
+    }
+  },
+  {
     "slug": "golpe-voz-clonada-de-ceo",
     "data": "08/11/2026",
     "quadro": "Tech Radar",
