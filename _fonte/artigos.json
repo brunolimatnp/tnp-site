@@ -1,5 +1,120 @@
 [
   {
+    "slug": "microsoft-fora-do-ar-12-horas",
+    "data": "13/11/2026",
+    "quadro": "Resumo TNP",
+    "face": "-_-",
+    "min": 4,
+    "titulo": "Microsoft fora do ar por 12 horas: o que parou e por quê",
+    "resumo": "Segundo o The Next Web, Outlook, Teams, Copilot e outros serviços do Microsoft 365 ficaram fora do ar por mais de 12 horas, afetando empresas, governos, bancos e companhias aéreas em 74 países. Até as integrações do ChatGPT e do Claude com o Microsoft 365 falharam. A causa exata seguia sob investigação, mas o recado prático já estava claro: quanto mais concentrada sua operação em um só fornecedor, maior o estrago quando ele falha. Veja o que parou e como montar um plano B simples.",
+    "fonte": "The Next Web",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "Quando uma das maiores plataformas de tecnologia do mundo sai do ar, o estrago não fica só nos servidores dela. Foi o que escancarou o apagão da Microsoft desta semana: por mais de 12 horas, serviços que empresas inteiras usam para trabalhar simplesmente pararam. Vamos ao que aconteceu — e, principalmente, ao que dá pra fazer pra não ficar na mão quando a próxima queda chegar."
+      ],
+      [
+        "h2",
+        "O que o Resumo TNP trouxe hoje"
+      ],
+      [
+        "p",
+        "Segundo o The Next Web, o Outlook, o Teams, o Copilot e outros serviços do Microsoft 365 ficaram fora do ar por mais de 12 horas, afetando empresas, agências governamentais, instituições financeiras e companhias aéreas em vários continentes. A falha começou na quinta-feira nas Américas e se espalhou pelo mundo em menos de uma hora. Ainda segundo o The Next Web, os relatórios de pane registrados pelo Downdetector chegaram a 74 países e territórios."
+      ],
+      [
+        "h2",
+        "A escala do apagão"
+      ],
+      [
+        "p",
+        "O tamanho fica claro quando se olha o mapa de reclamações. Segundo o The Next Web, o Downdetector registrou um salto de dez vezes nos relatos no Reino Unido às 17h43 (UTC), seguido de picos na Índia e na Nova Zelândia conforme o dia de trabalho começava por lá. Não foi um soluço de alguns minutos: foi meio dia inteiro de serviço instável para quem depende dessas ferramentas para quase tudo."
+      ],
+      [
+        "h2",
+        "O estrago no mundo real"
+      ],
+      [
+        "p",
+        "E o impacto não ficou na tela. Segundo o The Next Web:"
+      ],
+      [
+        "ul",
+        [
+          "Banqueiros do Morgan Stanley e do Goldman Sachs em Hong Kong ficaram sem acesso a e-mail e Teams durante todo o dia de trabalho.",
+          "O governo do Japão voltou a usar papel, depois que ministérios não conseguiram enviar e-mails.",
+          "Cortes e escolas na Austrália relataram interrupções.",
+          "Um escritório de xerife no Colorado disse que a falha atrasou pagamentos de fiança de presos."
+        ]
+      ],
+      [
+        "p",
+        "São exemplos bem diferentes, mas com um fio em comum: quando a ferramenta central cai, o trabalho não tem para onde ir."
+      ],
+      [
+        "h2",
+        "Até a IA de terceiros caiu junto"
+      ],
+      [
+        "p",
+        "Aqui vem o detalhe que interessa a quem já colocou IA na rotina. Segundo o The Next Web, as integrações do ChatGPT (OpenAI) e do Claude (Anthropic) com o Microsoft 365 também foram afetadas — e-mails, calendários e buscas falhavam para a maioria dos usuários. Os modelos de IA em si continuavam funcionando; o problema era a conexão com os serviços da Microsoft. A lição é direta: uma IA é tão confiável quanto a infraestrutura embaixo dela."
+      ],
+      [
+        "h2",
+        "A causa, ainda sob investigação"
+      ],
+      [
+        "p",
+        "No momento da publicação, a origem exata ainda não estava fechada. Segundo o The Next Web, Charles Lamanna, vice-presidente executivo da Microsoft para Copilot, Agents e Platform, afirmou no X que não havia indicação de atividade maliciosa ou ataque cibernético. Ainda segundo o The Next Web, a ministra australiana de assuntos internos disse que a Microsoft acreditava estar lidando com algo parecido com o incidente CrowdStrike de 2024 — uma atualização que deu errado —, mas a empresa não confirmou essa explicação como causa raiz."
+      ],
+      [
+        "h2",
+        "Na prática: seu plano B em 4 passos"
+      ],
+      [
+        "p",
+        "Você não controla o apagão do fornecedor, mas controla o quanto ele te derruba. Dá pra montar um plano B simples, antes de o problema aparecer:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Mapeie sua dependência.</b> Liste quais ferramentas do seu trabalho dependem de um único fornecedor — e-mail, videoconferência, armazenamento de arquivos.",
+          "<b>Tenha um canal alternativo.</b> Um grupo no WhatsApp ou Telegram com o time resolve a comunicação urgente quando o e-mail corporativo cai.",
+          "<b>Salve localmente o que é crítico.</b> Contratos, planilhas e documentos importantes não deveriam existir só na nuvem de um fornecedor.",
+          "<b>Combine um protocolo de crise.</b> Defina com o time: se o e-mail cair por mais de uma hora, a gente se fala por aqui. Não precisa ser elaborado — precisa existir antes."
+        ]
+      ],
+      [
+        "p",
+        "Vale também conhecer a página de status do seu fornecedor (Microsoft, Google e outros mantêm uma pública). É o primeiro lugar pra checar antes de abrir chamado e perder tempo achando que o problema é só seu."
+      ],
+      [
+        "h2",
+        "Recapitulando"
+      ],
+      [
+        "p",
+        "O apagão da Microsoft durou mais de 12 horas, chegou a 74 países e paralisou governos, bancos e companhias aéreas; segundo o The Next Web, derrubou até as integrações do ChatGPT e do Claude com o Microsoft 365. A causa seguia sob investigação, mas o recado prático já estava claro: quanto mais concentrada sua operação em um só fornecedor, maior o estrago quando ele falha."
+      ],
+      [
+        "p",
+        "Se você ainda não tem um plano B para quando a sua plataforma principal cair, esse é o momento de montar um. Salva este post pra revisar com o seu time e compartilha com quem toma essas decisões aí na sua empresa."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: se o seu e-mail corporativo ficasse fora do ar por 12 horas hoje, o que travaria primeiro na sua rotina?"
+      ]
+    ],
+    "redes": {
+      "instagram": "https://www.instagram.com/brunolimatnp"
+    }
+  },
+  {
     "slug": "ia-le-dna-celula-por-celula",
     "data": "11/11/2026",
     "quadro": "Na Prática",
