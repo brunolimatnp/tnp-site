@@ -1,5 +1,104 @@
 [
   {
+    "slug": "apple-estuda-ia-para-duvidas-de-saude",
+    "data": "16/11/2026",
+    "quadro": "Tech Radar",
+    "face": "o_o",
+    "min": 4,
+    "titulo": "Apple estuda IA para dúvidas de saúde: o que é (e o que não é)",
+    "resumo": "Segundo o TechCrunch, a Apple se uniu à OpenEvidence para estudar como as pessoas usam IA para tirar dúvidas de saúde — um estudo com até 200 mil participantes nos EUA, não um produto pronto. As respostas se baseiam em publicações médicas como NEJM, JAMA e Nature, e os dados são anonimizados e apagados em até 24 horas. Ainda não se sabe se isso vira recurso no app Saúde ou na Siri. Veja o que já dá pra levar pra casa — e como usar IA para saúde sem se enrascar.",
+    "fonte": "TechCrunch",
+    "palavra": "",
+    "material": "",
+    "corpo": [
+      [
+        "p",
+        "Toda semana aparece uma novidade de IA que promete mudar tudo. A da vez tem nome conhecido: a Apple. Mas, antes de empolgar, vale separar o que é fato do que é expectativa — porque o que a empresa colocou na mesa é um estudo, não um produto pronto chegando ao seu iPhone. Vamos ao que apareceu no radar hoje e, principalmente, ao que isso muda (ou não) pra você."
+      ],
+      [
+        "h2",
+        "O que a Apple colocou na mesa"
+      ],
+      [
+        "p",
+        "Segundo o TechCrunch, a Apple se uniu à OpenEvidence para estudar, na prática, como as pessoas usam inteligência artificial para tirar dúvidas de saúde. O ponto que merece atenção é esse: não é um recurso novo caindo no seu celular amanhã, é uma pesquisa para observar como esse tipo de uso funciona no mundo real. Ainda segundo o TechCrunch, o estudo deve envolver até 200 mil participantes nos Estados Unidos."
+      ],
+      [
+        "h2",
+        "Quem pode participar"
+      ],
+      [
+        "p",
+        "O estudo tem pré-requisitos técnicos. Segundo o TechCrunch, entram pessoas com iPhone 15 Pro ou mais recente e com o Apple Intelligence ativado — ou seja, os aparelhos que rodam os recursos de IA da própria Apple. Por enquanto é algo restrito aos EUA e a esse público específico; nada que você precise fazer hoje aqui no Brasil."
+      ],
+      [
+        "h2",
+        "De onde vêm as respostas"
+      ],
+      [
+        "p",
+        "Aqui está o detalhe que separa essa iniciativa de um chatbot genérico. Segundo o TechCrunch, as respostas são baseadas em publicações médicas como NEJM, JAMA e Nature, e não num modelo de linguagem solto respondendo o que acha. É uma tentativa de ancorar a IA em fontes revisadas, em vez de deixá-la inventar. Muda a origem da informação — e, quando o assunto é saúde, a origem é tudo."
+      ],
+      [
+        "h2",
+        "E os seus dados?"
+      ],
+      [
+        "p",
+        "Saúde e privacidade andam juntas, então essa parte importa. Segundo o TechCrunch, os dados coletados são anonimizados, e as perguntas e respostas são apagadas pela OpenEvidence em até 24 horas. É uma salvaguarda relevante no papel; como vai funcionar na prática, só o andamento do estudo vai mostrar."
+      ],
+      [
+        "h2",
+        "O que ainda não está claro"
+      ],
+      [
+        "p",
+        "Nem tudo está definido — e tudo bem dizer isso. Segundo o TechCrunch, ainda não se sabe onde esse trabalho vai parar: se os resultados vão alimentar o app Saúde, a Siri ou algum outro produto. Por isso vale repetir: é um estudo. Qualquer manchete dizendo que a Apple vai te diagnosticar está correndo na frente do que a notícia sustenta."
+      ],
+      [
+        "h2",
+        "Na prática: como usar IA para saúde sem se enrascar"
+      ],
+      [
+        "p",
+        "Você provavelmente já perguntou algo de saúde para uma IA — é um dos usos mais comuns. Enquanto estudos como esse tentam tornar isso mais confiável, dá pra se proteger com alguns cuidados simples:"
+      ],
+      [
+        "ul",
+        [
+          "<b>Trate como ponto de partida, não como laudo.</b> A IA ajuda a entender um termo ou organizar uma dúvida, mas não substitui um profissional.",
+          "<b>Pergunte a fonte.</b> Peça à ferramenta de onde ela tirou a resposta. Se ela não souber dizer, desconfie.",
+          "<b>Desconfie de certeza absoluta.</b> Saúde quase nunca é preto no branco; resposta categórica demais é sinal de alerta.",
+          "<b>Leve o que achou para quem entende.</b> Use o que a IA te deu para fazer perguntas melhores ao médico, não para fechar o diagnóstico sozinho."
+        ]
+      ],
+      [
+        "h2",
+        "Recapitulando"
+      ],
+      [
+        "p",
+        "Segundo o TechCrunch, a Apple se uniu à OpenEvidence para estudar, com até 200 mil participantes nos EUA, como as pessoas usam IA para dúvidas de saúde — com respostas baseadas em publicações como NEJM, JAMA e Nature, dados anonimizados e apagados em até 24 horas. É um estudo, não um produto, e ainda não se sabe se vira recurso no app Saúde ou na Siri. O que já dá pra levar pra casa é o cuidado de sempre: IA é ponto de partida, não palavra final."
+      ],
+      [
+        "p",
+        "Salva este post pra consultar quando for tirar a próxima dúvida de saúde com uma IA — e compartilha com aquela pessoa que pergunta tudo pro chatbot antes de ligar pro médico."
+      ],
+      [
+        "p",
+        "<b>Simples assim.</b>"
+      ],
+      [
+        "p",
+        "Agora uma pergunta pra você: você já usou IA pra tirar dúvida de saúde e seguiu o que ela disse?"
+      ]
+    ],
+    "redes": {
+      "instagram": "https://www.instagram.com/brunolimatnp",
+      "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528094671277809664"
+    }
+  },
+  {
     "slug": "microsoft-fora-do-ar-12-horas",
     "data": "13/11/2026",
     "quadro": "Resumo TNP",
